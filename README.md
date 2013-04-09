@@ -1,3 +1,7 @@
+# About this fork
+
+This fork removes the `.replace(/%20/g, '+')` from URI.encodeQuery, which causes problems in some email clients' `mailto:` links
+
 # URI.js #
 
 * [About](http://medialize.github.com/URI.js/)

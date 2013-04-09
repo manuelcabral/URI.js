@@ -258,7 +258,7 @@ URI.characters = {
     }
 };
 URI.encodeQuery = function(string) {
-    return URI.encode(string + "").replace(/%20/g, '+');
+    return URI.encode(string + "");
 };
 URI.decodeQuery = function(string) {
     return URI.decode((string + "").replace(/\+/g, '%20'));
